@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Tic Tac Toe",
+    "slug": "Tic-Tac-Toe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash-icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.abhinaykushwaha.TicTacToe"
+    },
+    "web": {
+      "favicon": "./assets/splash-icon.png"
+    },
+    "plugins": [
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "99031fa7-2c63-4705-b8d7-546fdb3aeb76"
+      }
+    },
+    "owner": "abhinay-kushwaha"
+  }
+}
